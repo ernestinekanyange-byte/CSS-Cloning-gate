@@ -210,4 +210,71 @@ body {
   color: black;            
 }
 
+.section-three {
+  position: relative;     
+  width: 100%;             
+  height: 100vh;           
+  overflow: hidden;        
+            
+}
+
+.first-image {
+  position: absolute;      
+  width: 100%;             
+  height: 100%;            
+  object-fit: cover;   
+}
+
+
+.third-content {
+  position: absolute;    
+  top: 45px;             
+  left: 700px;             
+  max-width: 420px;      
+  z-index: 1;
+              
+}
+
+.third-content h2 {
+  color: white;             
+  font-size: 48px;            
+  font-weight: bold;         
+  text-transform: uppercase;  
+  letter-spacing: 2px;        
+  margin-bottom: 20px;       
+  line-height: 1.1; 
+  font-family: D-DIN-Bold, Arial, sans-serif;         
+}
+
+
+.third-content p {
+  color: white;         
+  font-size: 14px;       
+  line-height: 1.6;      
+  margin-bottom: 30px;   
+}
+
+
+.third-content a {
+  color: white;              
+  text-decoration: none;      
+  font-size: 13px;            
+  font-weight: bold;          
+  letter-spacing: 2px;        
+  text-transform: uppercase;  
+  border: 1px solid white;   
+  padding: 14px 24px;         
+  background-color: transparent; 
+  display: inline-block;
+  background-color: rgb(97, 95, 95);     
+}
+
+
+.third-content a:hover {
+  background-color: white;   
+  color: black;              
+}
+
+
+
 
