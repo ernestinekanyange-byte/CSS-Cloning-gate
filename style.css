@@ -76,12 +76,6 @@ body {
   border-right: 1px solid gray;
 }
 
-.nav-launch-timer {
-  color: white;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 0 12px;
-}
 
 .video-container {
   position: relative;   
@@ -404,7 +398,8 @@ position: relative;
   left: 5%; 
   max-width: 800px;      
   z-index: 2; 
-  margin-top: 300px;
+  margin-top: 50px;
+  
 }
 .sixth-content h2 {
   color: white;             
@@ -419,7 +414,7 @@ position: relative;
 }
 .sixth-content p {
   color: white;         
-  font-size: 14px;       
+  font-size: 18px;       
   line-height: 1.6;      
   margin-bottom: 30px; 
   max-width: 500px;  
@@ -439,45 +434,48 @@ position: relative;
 }
 .sixth-content a:hover {
   background-color: white;   
-  color:white;         
-}
-
-.main-footer{
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 14px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  
+  color: black;         
 }
 
 
-
-.footer  {
-color: white;
-  text-decoration: none;
- display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  width: 20px;
- 
+.main-footer {
+  background-color: black;        
+  display: flex;                  
+  align-items: center;            
+  justify-content: space-between; 
+  padding: 0 40px;                
+  height: 80px;                   
+  width: 100%;                  
 }
+
+
+#x-logo img {
+  height: 30px;                   
+  width: auto;
+  background-color: grey;
+  border-radius: 50%;                    
+}
+
+
+.footer {
+  display: flex;                  
+  gap: 30px;                     
+}
+
 .footer a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
+  color: white;                   
+  text-decoration: none;          
+  font-size: 12px;                
+  font-weight: bold;              
+  letter-spacing: 2px;            
+  text-transform: uppercase;      
 }
-#x-logo {
-  
-  border-radius: 50%;
-} 
 
 
 
-
-
-
+.copyright p {
+  color: white;                   
+  font-size: 12px;                
+  letter-spacing: 1px;            
+}
 
